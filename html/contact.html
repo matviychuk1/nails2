@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OleksiukNails</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/media.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+        integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin=""/>
+</head>
+<body>
+    <header>
+        <div class="hamburger-on">
+            <p><a href="#">oleksiuk nails</a></p>
+        </div>
+        <ul class="nav-links">
+            <li class="nav-links-list"><a class="nav-links-href" href="../index.html">про нас</a></li>
+            <li class="nav-links-list"><a class="nav-links-href" href="../index.html">мої роботи</a></li>
+            <li class="nav-links-list"><a class="nav-links-href" href="../html/prices.html">ціни</a></li>
+            <li class="nav-links-list"><a class="logo" href="../index.html">oleksiuk nails</a>
+                
+            </li>
+            <li class="nav-links-list"><a class="nav-links-href" href="../index.html">відгуки</a></li>
+            <li class="nav-links-list"><a class="nav-links-href" href="../html/contact.html">контакти</a></li>
+            <li class="nav-links-list"><a class="nav-links-href" href="https://t.me/OleksXrus">
+                <button class="header-nav-btn sticky">
+                    підписатись
+                        <span class="first"></span>
+                        <span class="second"></span>
+                        <span class="third"></span>
+                        <span class="fourth"></span>
+                </button>
+                </a>
+            </li>
+        </ul>
+    </header>
+    <section class="featured beauty-contact-main">
+        <div class="card">
+            <h2>контакти</h2>
+            <h3>для зв'язку із нами</h3>
+            <div>                
+                <a href="#primary" class="scroll" onclick="showScroll('#test-scroll')"></a>
+            </div>
+        </div>
+    </section>
+    <section class="main-contacts" id="test-scroll">
+        <div class="contacts">
+            <div class="contacts-all">
+                <h3 class="contacts-header">НАШІ ВІТАННЯ</h3>
+                <p class="contacts-text">E. <span>admin@nails.com</span></p>
+                <p class="contacts-text">T. <span><a href="tel:+380683276305">+ 380 (68) 32 76 305</a></span></p>
+                <button><a href="tel:+380955659509">зателефонувати</a></button>
+            </div>
+            <div class="contacts-maps">
+                <h3 class="contacts-header">ВІДВІДАЙТЕ НАС</h3>
+                <p class="contacts-text">м. <span>Івано-Франківськ</span></p>
+                <p class="contacts-text">вул. Мазепи 114а КДЦ</p>
+                <a href="https://www.google.com/maps/place/%D0%9A%D0%BB%D1%96%D0%BD%D1%96%D0%BA%D0%BE-%D0%B4%D1%96%D0%B0%D0%B3%D0%BD%D0%BE%D1%81%D1%82%D0%B8%D1%87%D0%BD%D0%B8%D0%B9+%D0%A6%D0%B5%D0%BD%D1%82%D1%80/@48.9149181,24.6959911,17z/data=!4m14!1m7!3m6!1s0x4730c1394de911e7:0x7ab0bf94acfe3338!2z0JrQu9GW0L3RltC60L4t0LTRltCw0LPQvdC-0YHRgtC40YfQvdC40Lkg0KbQtdC90YLRgA!8m2!3d48.915306!4d24.696549!16s%2Fg%2F1tc_jxh7!3m5!1s0x4730c1394de911e7:0x7ab0bf94acfe3338!8m2!3d48.915306!4d24.696549!16s%2Fg%2F1tc_jxh7">google map</a>
+            </div>
+        </div>
+    </section>
+    <section>
+        <!-- <div class="road-tutorial">
+            <div class="video-tutorial">
+                <iframe width="500px" height="600px" src="https://www.youtube.com/embed/dkuF29Z-BvI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="map-tutorial">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2621.579939149486!2d24.7076757!3d48.923394900000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4730c113769362fb%3A0x66045afb99925182!2z0LLRg9C70LjRhtGPINCd0LjQt9C-0LLQsCwgOSwg0IbQstCw0L3Qvi3QpNGA0LDQvdC60ZbQstGB0YzQuiwg0IbQstCw0L3Qvi3QpNGA0LDQvdC60ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA3NjAwMA!5e0!3m2!1suk!2sua!4v1681291460717!5m2!1suk!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div> -->
+        <section>
+            <h3 class="road-title">- ЯК НАС ЗНАЙТИ -</h3>
+            <div class="road-section">
+                <div class="video-road">
+                    <video class="video-info" src="../img/video.MP4" controls></video>
+                </div>
+                <div class="map-road">
+                    <iframe class="map-info" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2622.0248867233563!2d24.6959911!3d48.9149181!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4730c1394de911e7%3A0x7ab0bf94acfe3338!2z0JrQu9GW0L3RltC60L4t0LTRltCw0LPQvdC-0YHRgtC40YfQvdC40Lkg0KbQtdC90YLRgA!5e0!3m2!1suk!2sru!4v1683422700716!5m2!1suk!2sru" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </section>
+    <!-- <section class="form-back">
+        <div class="form-sent">
+            <div class="form-content">
+                <div class="right-side">
+                    <div class="topic-text">
+                        відправте нам email</div>
+                    <p>
+                        Будь ласка відправте нам email форму, та ми дамо відповідь одразу як зможемо...
+                    </p>
+                    <form action="#">
+                        <div class="input-box">
+                            <input type="text" placeholder="Повне ім'я *" />
+                        </div>
+                        <div class="input-box">
+                            <input type="text" placeholder="Email *" />
+                        </div>
+                        <div class="input-box">
+                            <input type="text" placeholder="Номер телефону *" />
+                        </div>
+                        <div class="input-box message-box">
+                            <textarea placeholder="Повідомлення"></textarea>
+                        </div>
+                        <div class="button">
+                            <input type="button" value="Відправити" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <section class="work-time-plus">
+        <div class="intmed-block">
+            <div class="intmed-block-image">
+                <img src="../img/main2.JPG" alt="">
+            </div>
+            <div class="intmed-block-half">
+                <div class="intmed-block-text intmed-block-text2">
+                    <h4>ЧАС РОБОТИ</h4>
+                    <div class="hours">
+                        <p>Пн — 09:00 - 19:00</p>
+                        <p>Вт — 09:00 - 19:00</p>
+                        <p>Ср — 09:00 - 19:00</p>
+                        <p>Чт — 09:00 - 19:00</p>
+                        <p>Пт — 09:00 - 19:00</p>
+                        <p>Сб — 09:00 - 19:00</p>
+                        <p>Нд — вихідний</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <div class="line"> 
+
+    </div>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-top-inner">
+                    <div class="footer-top-item footer-top-itemdrop">
+                        <h6 class="footer-top-title footer-topdrop">Oleksiuk_Nails</h6>
+                        <ul class="footer-list">
+                            <li class="footer-list-item"><a class="footer-list-item-hov" href="../index.html">Про нас</a></li>
+                            <li class="footer-list-item"><a class="footer-list-item-hov" href="../index.html">Мої роботи</a></li>
+                            <li class="footer-list-item"><a class="footer-list-item-hov" href="./prices.html">Ціни</a></li>
+                            <li class="footer-list-item"><a class="footer-list-item-hov" href="../index.html">Відгуки</a></li>
+                            <li class="footer-list-item"><a class="footer-list-item-hov" href="./contact.html">Контакти</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-top-item footer-top-itemdrop">
+                        <h6 class="footer-top-title footer-topdrop">Час роботи:</h6>
+                        <ul class="footer-list">
+                            <li class="footer-list-item"><p class="footer-list-item-text">Пн — 09:00 - 19:00</p></li>
+                            <li class="footer-list-item"><p class="footer-list-item-text">Вт — 09:00 - 19:00</=></li>
+                            <li class="footer-list-item"><p class="footer-list-item-text">Ср — 09:00 - 19:00</=></li>
+                            <li class="footer-list-item"><p class="footer-list-item-text">Чт — 09:00 - 19:00</=></li>
+                            <li class="footer-list-item"><p class="footer-list-item-text">Пт — 09:00 - 19:00</=></li>
+                            <li class="footer-list-item"><p class="footer-list-item-text">Сб — 09:00 - 19:00</=></li>
+                            <li class="footer-list-item"><p class="footer-list-item-text">Нд — вихідний</=></li>
+                        </ul>
+                    </div>
+                    <div class="footer-top-item-social">
+                        <ul class="social-list">
+                            <li class="social-list-item">
+                                <a class="instagram" href="https://instagram.com/oleksiuk_xrustya?igshid=NTc4MTIwNjQ2YQ==">
+                                    <span class="spann"></span>
+                                    <span class="spann"></span>
+                                    <span class="spann"></span>
+                                    <span class="spann"></span>
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="social-list-item">
+                                <a class="telegram" href="https://t.me/OleksXrus">
+                                    <span class="spann"></span>
+                                    <span class="spann"></span>
+                                    <span class="spann"></span>
+                                    <span class="spann"></span>
+                                    <i class="fa fa-telegram" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="social-list-item">
+                                    <a class="viber" href="viber://chat?number=%2B380683276305">
+                                    <span class="spann"></span>
+                                    <span class="spann"></span>
+                                    <span class="spann"></span>
+                                    <i class="fab fa-viber" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="social-list-item">
+                                <a class="facebook" href="#">
+                                    <span class="spann"></span>
+                                    <span class="spann"></span>
+                                    <span class="spann"></span>
+                                    <span class="spann"></span>
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </footer>
+
+    
+
+    <script src="https://kit.fontawesome.com/ddc6df9d30.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+    <script src="../js/hislide/jquery.hislide.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="../js/main.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+     crossorigin=""></script>
+</body>
+</html>

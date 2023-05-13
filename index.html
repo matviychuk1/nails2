@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OleksiukNails</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin=""/>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="hamburger-on">
+            <p><a href="#">oleksiuk nails</a></p>
+        </div>
+        <ul class="nav-links">
+            <li class="nav-links-list"><a class="nav-links-href" href="#about-us">про нас</a></li>
+            <li class="nav-links-list"><a class="nav-links-href" href="#my-works">мої роботи</a></li>
+            <li class="nav-links-list"><a class="nav-links-href" href="./html/prices.html">ціни</a></li>
+            <li class="nav-links-list"><a class="logo" href="./index.html">oleksiuk nails</a>
+            </li>
+            <li class="nav-links-list"><a class="nav-links-href" href="#reviews">відгуки</a></li>
+            <li class="nav-links-list"><a class="nav-links-href" href="./html/contact.html">контакти</a></li>
+            <li class="nav-links-list"><a class="nav-links-href" href="https://t.me/OleksXrus">
+                <button class="header-nav-btn sticky">
+                    підписатись
+                        <span class="first"></span>
+                        <span class="second"></span>
+                        <span class="third"></span>
+                        <span class="fourth"></span>
+                </button>
+                </a>
+            </li>
+        </ul>
+    </header>
+    <section class="featured main-nails-page">
+        <div class="card">
+            <h2>мистецтво</h2>
+            <h3>втілене в манікюрі</h3>
+            <div>                
+                <a href="#primary" class="scroll" onclick="showScroll('#test-scroll')"></a>
+            </div>
+        </div>
+    </section>
+    <section id="about-us">
+        <div class="intmed-block" id="test-scroll">
+            <div class="intmed-block-half ">
+                <div class="intmed-block-text intmed-block-text-main derma-info">
+                    <h3>Вітаю всіх любителів краси та догляду за своїм зовнішнім виглядом! </span></h3>
+                    <p>Мене звати Христина, я майстер манікюру з багаторічним досвідом роботи.  Моя основна мета – не просто створити чудовий манікюр, а створити для вас атмосферу релаксу та задоволення, де ти зможеш відпочити від стресів, віддатись процесу догляду за своїми нігтями та насолодитись результатом.</p>
+                    <div class="intmed-block-subscribe-btn">
+                        <a href="https://t.me/OleksXrus" class="button-sub">підписатись</a>
+                    </div>
+                </div>
+            </div>
+            <div class="intmed-block-image">
+                <img src="./img/masterOne.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="beauty-inner">
+            <h4>Я використовую тільки якісні матеріали та інструменти, щоб забезпечити максимальний комфорт для вас і гарантувати безпеку та гігієну під час процедури.</h4>
+            <p>Із задоволено докладу всіх зусиль, щоб твій манікюр та педикюр виглядали стильно, оригінально та довго радували твоє око!
+            Тож запрошую тебе в мій кабінет краси, де я з радістю допоможу втілити в життя будь-яку ідею та зробити ваші руки ще більш привабливими, доглянутими та здоровими!</p>
+        </div>
+    </section>
+    <section class="slider_container" id="my-works">
+        <h4>ГАЛЕРЕЯ РОБІТ</h4>
+            <div class="container">
+                <div class="swiper card_slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="img_box"><img src="./img/slider/1.jpg" alt=""></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box"><img src="./img/slider/2.jpg" alt=""></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box"><img src="./img/slider/3.jpg" alt=""></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box"><img src="./img/slider/4.jpg" alt=""></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box"><img src="./img/slider/5.jpg" alt=""></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box"><img src="./img/slider/6666.jpeg" alt=""></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box"><img src="./img/slider/7.jpg" alt=""></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box"><img src="./img/slider/8.jpg" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+    </section>
+    <section class="popular-question">
+        <h3 class="acordeon-title">НАЙПОПУЛЯРНІШІ ЗАПИТАННЯ до майстра манікюру та відповіді на них:</h3>
+        <div class="acordeon">
+            <div class="acor-container">         
+                <input type="checkbox" name="chacor" id="chacor1" checked="checked" />
+                <label for="chacor1">1. Які матеріали та інструменти ви використовуєте?</label>
+                <div class="acor-body">
+                    <p>В якості матеріалів я використовую якісний матеріал для манікюру, брендові декоративні елементи та інші продукти відомих виробників. Щодо інструментів, то я використовую стерилізовані та якісні інструменти! </p>
+                </div>
+                <input type="checkbox" name="chacor" id="chacor2" />
+                <label for="chacor2">2. Як вибрати правильну форму нігтів?</label>
+                <div class="acor-body">
+                    <p>Форма нігтів повинна відповідати формі твоїх пальців. Якщо твої пальці довгі та стрункі, то підійдуть гострі та вузькі нігті. Якщо твої пальці короткі та широкі, то підійдуть округлі та широкі нігті. Також можна врахувати власний стиль та уподобання.
+                    </p>
+                </div>
+                <input type="checkbox" name="chacor" id="chacor3" />
+                <label for="chacor3">3. Які є варіанти манікюру?</label>
+                <div class="acor-body">
+                    <p>Варіантів манікюру безліч, і все залежить від ваших уподобань та особистого стилю. Наприклад, класичний манікюр, французький манікюр, дизайн нігтів з використанням декору, омбре-манікюр та інші.</p>
+                </div>
+                <input type="checkbox" name="chacor" id="chacor4" />
+                <label for="chacor4"> 4. Чи можна робити манікюр на нігтях з проблемною шкірою?</label>
+                <div class="acor-body">
+                    <p>Так, звичайно, можна. Я рекомендую проводити додаткову процедуру з догляду за шкірою рук та нігтьової пластини для поліпшення стану шкіри перед проведенням манікюру.</p>
+                </div>
+                <input type="checkbox" name="chacor" id="chacor5" />
+                <label for="chacor5">5. Як довго тримається гелевий манікюр?</label>
+                <div class="acor-body">
+                    <p>Гелевий манікюр може триматися від двох тижнів до місяця, залежно від типу гелю та стану нігтів.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="master">
+        <div class="master-card">
+            <h4 class="master-card-title">Прайслист</h4>
+            <div class="master-price">
+                <div class="master-container">
+                    <button class="look-master-btn" id="myBtn">
+                        <img class="image-master" src="./img/прайсМанікюр.PNG" alt="">
+                        <div class="middle-master">
+                            <div class="text-master">ВІДКРИТИ</div>
+                        </div>
+                    </button>
+                </div>
+                <div class="master-container">
+                    <button class="look-master-btn" id="myBtn2">
+                        <img class="image-master" src="./img//прайсПедикюр.PNG" alt="">
+                        <div class="middle-master">
+                            <div class="text-master">ВІДКРИТИ</div>
+                        </div>
+                    </button>
+                </div>
+            </div>
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <h5>МАНІКЮР<span class="close">&times;</span></h5>
+                        <p>-Комбінований манікюр — 300 ₴</p>
+                        <p>-Апаратний манікюр — 300 ₴</p>
+                        <p>-Зняття гель-лаку + комбінований манікюр — 330 ₴</p>
+                        <p>-Зняття гель-лаку + апаратний манікюр — 330 ₴</p>
+                        <p>-Манікюр + покриття гель-лаком — 450 ₴</p>
+                        <p>-Манікюр + гелева корекція(полігелю) — 550 ₴</p>
+                        <p>-Манікюр + викладний французький — 600 ₴</p>
+                        <a href="./html/prices.html"><span>всі ціни</span></a>
+                    </div>
+                </div>
+                <div id="myModal2" class="modal2">
+                    <div class="modal-content">
+                        <h5>ПЕДИКЮР<span class="close">&times;</span></h5>
+                        <p>Гігієнічний педикюр апаратний:</p>
+                        <p>-Обробка стопи повністю — 500 ₴</p>
+                        <p>-Обробка пальців — 350 ₴</p>
+                        <p>Додатково:</p>
+                        <p>-Покриття гель-лаком + 150 ₴</p>
+                        <p>Медичний педикюр:</p>
+                        <p>-Обробка стопи повністю — 550 ₴</p>
+                        <p>-Обробка пальців — 400 ₴</p>
+                        <p>-Обробка стопи(без обробки пальців) — 400 ₴</p>
+                        <a href="./html/prices.html"><span>всі ціни</span></a>
+                    </div>
+                </div>
+                <h5 class="master-name">Христина Олексюк</h5>
+                <p class="master-position">нейл-майстер</p>
+        </div>
+    </section>
+
+    
+    <section class="reviews-block" id="reviews">
+        <div class="reviews">
+            <div class="reviews-more">
+                <div class="slideshow-container">
+                    <div class="mySlides">
+                        <h4>відгуки від клієнтів</h4>
+                        <p> ★ ★ ★ ★ ★</p>
+                        <q class="mySlides-response">Мені дуже сподобався майстер манікюру! Вона дуже уважна до деталей, завжди чисто працює, та має гарний смак. Мій манікюр виглядає просто ідеально, я не можу відірвати від нього погляд!
+                        </q>
+                        <p class="author">— Клієнт Софія</p>
+                    </div>
+                    <div class="mySlides">
+                        <h4>відгуки від клієнтів</h4>
+                        <p> ★ ★ ★ ★ ★</p>
+                        <q class="mySlides-response">Я була в захваті від майстра манікюру. Вона вміє створити чудову атмосферу, дуже приємно з нею спілкуватися. Її робота вражає - так багато деталей, кольорів, оригінальних ідей. Я виходжу з салону завжди задоволена!</q>
+                        <p class="author">— Клієнт Юлія</p>
+                    </div>
+                    <div class="mySlides">
+                        <h4>відгуки від клієнтів</h4>
+                        <p> ★ ★ ★ ★ ★</p>
+                        <q class="mySlides-response">Я дуже задоволена манікюром, який зробила мені майстер. Вона дуже уважна та ввічлива, зробила все так, як я просила. Якість роботи висока, мої нігті виглядають дуже красиво та охайно. З задоволенням буду звертатися ще раз!</q>
+                        <p class="author">— Клієнт Ольга</p>
+                    </div>
+                    <div class="mySlides">
+                        <h4>відгуки від клієнтів</h4>
+                        <p> ★ ★ ★ ★ ★</p>
+                        <q class="mySlides-response">Я вже була у цьому салоні кілька разів, і кожен раз залишалася задоволеною. Майстер манікюру - професіонал своєї справи, завжди готова допомогти з вибором кольору та дизайну. Її робота - це мистецтво, яке мені дуже подобається. Я раджу всім звертатися до неї!</q>
+                        <p class="author">— Клієнт Анна</p>
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+                </div>
+                <div class="dot-container">
+                    <span class="dot" onclick="currentSlide(1)"></span> 
+                    <span class="dot" onclick="currentSlide(2)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+            </div>
+
+            <div class="reviews-link">
+                <div class="reviews-link-info">
+                    <div class="container-card">
+                        <div class="container">
+                            <div class="card">
+                                <div class="slide slide1">
+                                    <div class="content">
+                                        <div class="icon">
+                                            <i class="fa fa-user-circle" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide slide2">
+                                    <div class="content">
+                                        <h3><a href="https://instagram.com/oleksiuk_xrustya?igshid=NTc4MTIwNjQ2YQ==">Підпишіться на НАС!</a></h3>
+                                        <p>Щоб бути в курсі всіх новин!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>   
+        </div>
+    </section>
+
+    <div class="line"></div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-top-inner">
+                    <div class="footer-top-item footer-top-itemdrop">
+                        <h6 class="footer-top-title footer-topdrop">Oleksiuk_Nails</h6>
+                        <ul class="footer-list">
+                            <li class="footer-list-item"><a class="footer-list-item-hov" href="./index.html">Про нас</a></li>
+                            <li class="footer-list-item"><a class="footer-list-item-hov" href="./index.html">Мої роботи</a></li>
+                            <li class="footer-list-item"><a class="footer-list-item-hov" href="./html/prices.html">Ціни</a></li>
+                            <li class="footer-list-item"><a class="footer-list-item-hov" href="./index.html">Відгуки</a></li>
+                            <li class="footer-list-item"><a class="footer-list-item-hov" href="./html/contact.html">Контакти</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-top-item footer-top-itemdrop">
+                        <h6 class="footer-top-title footer-topdrop">Час роботи:</h6>
+                        <ul class="footer-list">
+                            <li class="footer-list-item"><p class="footer-list-item-text">Пн — 09:00 - 19:00</p></li>
+                            <li class="footer-list-item"><p class="footer-list-item-text">Вт — 09:00 - 19:00</=></li>
+                            <li class="footer-list-item"><p class="footer-list-item-text">Ср — 09:00 - 19:00</=></li>
+                            <li class="footer-list-item"><p class="footer-list-item-text">Чт — 09:00 - 19:00</=></li>
+                            <li class="footer-list-item"><p class="footer-list-item-text">Пт — 09:00 - 19:00</=></li>
+                            <li class="footer-list-item"><p class="footer-list-item-text">Сб — 09:00 - 19:00</=></li>
+                            <li class="footer-list-item"><p class="footer-list-item-text">Нд — вихідний</=></li>
+                        </ul>
+                    </div>
+                    <div class="footer-top-item-social">
+                        <ul class="social-list">
+                            <li class="social-list-item">
+                                <a class="instagram" href="https://instagram.com/oleksiuk_xrustya?igshid=NTc4MTIwNjQ2YQ==">
+                                    <span class="spann"></span>
+                                    <span class="spann"></span>
+                                    <span class="spann"></span>
+                                    <span class="spann"></span>
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="social-list-item">
+                                <a class="telegram" href="https://t.me/OleksXrus">
+                                    <span class="spann"></span>
+                                    <span class="spann"></span>
+                                    <span class="spann"></span>
+                                    <span class="spann"></span>
+                                    <i class="fa fa-telegram" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="social-list-item">
+                                <a class="viber" href="viber://chat?number=%2B380683276305">
+                                    <span class="spann"></span>
+                                    <span class="spann"></span>
+                                    <span class="spann"></span>
+                                    <span class="spann"></span>
+                                    <i class="fab fa-viber" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="social-list-item">
+                                <a class="facebook" href="#">
+                                    <span class="spann"></span>
+                                    <span class="spann"></span>
+                                    <span class="spann"></span>
+                                    <span class="spann"></span>
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </footer>
+
+    
+
+    <script src="https://kit.fontawesome.com/ddc6df9d30.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+    <script src="./js/hislide/jquery.hislide.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+     crossorigin=""></script>
+</body>
+</html>
